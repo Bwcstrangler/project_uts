@@ -93,6 +93,7 @@ function Services() {
             alignItems: 'flex-start',
             height: '100%'
           }}>
+
             <img src={card.image} alt={card.title} style={{ width: '100%', height: '200px', objectFit: 'contain', display: 'block' }} />
             <div style={{ padding: '1rem' }}>
             <h3 style={{ margin: '0 0 0.5rem 0' }}>{card.title}</h3>
@@ -104,5 +105,7 @@ function Services() {
     </div>
   );
 }
+
+//aku tamvan
 
 export default Services;
