@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import Slider from '../components/Slider';
 
 function Home() {
   return (
@@ -35,21 +36,22 @@ function Home() {
 
       {/* Konten utama */}
       <div
-      style={{
-        position: 'relative',
-        zIndex: 2,
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'flex-start',
-        alignItems: 'center',
-        minHeight: 'calc(100vh - 70px)',
-        textAlign: 'center',
-        padding: '0 2rem 2rem 2rem',
-        backgroundColor: 'rgba(0, 0, 0, 0)', // fallback color to check visibility
-      }}
+        style={{
+          position: 'relative',
+          zIndex: 2,
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'flex-start',
+          alignItems: 'center',
+          minHeight: 'calc(100vh - 70px)',
+          textAlign: 'center',
+          padding: '0 2rem 2rem 2rem',
+          backgroundColor: 'rgba(0, 0, 0, 0)', // fallback color to check visibility
+        }}
       >
-        <h1 style={{ fontSize: '3rem', marginBottom: '0rem' }}>BASKORO CORP</h1>
-        <p style={{ fontSize: '1.5rem' }}>Your trusted partner in convection.</p>
+        <h1 style={{ fontSize: '3rem', marginBottom: '0rem' }}></h1>
+        <p style={{ fontSize: '1.5rem' }}></p>
+        <Slider />
       </div>
     </motion.div>
   );

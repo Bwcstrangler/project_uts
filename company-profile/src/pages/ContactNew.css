@@ -1,8 +1,8 @@
-.contact-container {
+  .contact-container {
   font-size: 1.1rem;
   padding: 6rem 1rem 2rem 1rem;
   max-width: 600px;
-  background: linear-gradient(135deg, #fce4ec 0%, #f8bbd0 100%);
+  background: darkgrey;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }

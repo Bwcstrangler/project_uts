@@ -20,6 +20,7 @@ function AppRouter() {
         <Route path="/contact" element={<ContactNew />} />
       </Routes>
       {location.pathname === '/' && <Footer />}
+      
     </>
   );
 }

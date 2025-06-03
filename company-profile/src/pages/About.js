@@ -7,7 +7,7 @@ function About() {
       maxWidth: '900px',
       margin: '0 auto',
       textAlign: 'center',
-      background: 'linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)',
+      background: 'darkgrey',
       borderRadius: '8px',
       boxShadow: '0 4px 12px rgba(0,0,0,0.1)'
     }}>
