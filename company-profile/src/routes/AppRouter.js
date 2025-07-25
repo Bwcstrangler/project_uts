@@ -5,6 +5,7 @@ import Home from '../pages/Home';
 import About from '../pages/About';
 import Services from '../pages/Services';
 import ContactNew from '../pages/ContactNew';
+import PesananList from '../pages/PesananList';
 import Footer from '../components/Footer';
 
 function AppRouter() {
@@ -18,6 +19,7 @@ function AppRouter() {
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<ContactNew />} />
+        <Route path="/PesananList" element={<PesananList />} />
       </Routes>
       {location.pathname === '/' && <Footer />}
       
